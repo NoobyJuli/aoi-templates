@@ -3,3 +3,8 @@
 
 ## How To Setup
 I uploaded a detailled tutorial for that on [YouTube](https://www.youtube.com/channel/UC6ex5DK4FD9zqWaVIZrBz0g).
+
+## Contents
+This GitHub repository contains:
+- AOI.JS Setup Files (index.js and package.json)
+- Help Command Template
