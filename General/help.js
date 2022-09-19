@@ -5,7 +5,7 @@ prototype: "slash",
 $if:"v4", 
 code:`$interactionReply[;{newEmbed:{title:Help Menu}{color:RANDOM}{description:
 PUT SOME RANDOM TEXT HERE
-Example: \`\`\`$getServerVar[prefix]\`\`\`
+Example (Prefix): \`\`\`$getServerVar[prefix]\`\`\`
 [Support / Report / Bugs / Errors](https://google.com)}{footer:Made with <3 by $username[$botOwnerID]:$userAvatar[$botOwnerID]}};{actionRow:{button:Moderation:primary:mod}};;;no]
 $setUserVar[155;$authorID;$authorID;$guildID]
 `
@@ -16,7 +16,7 @@ name:"mod",
 code:`
 $interactionUpdate[;{newEmbed:{title:RANDOM TEXT HERE}{description:
 PUT SOME RANDOM TEXT HERE
-}{fields:Ban,ban <@Mention/ID> <Reason>,yes:Kick,kick <@Mention/ID> <Reason>,yes:RANDOM TEXT,RANDOM TEXT,yes}{ephemeral:no}{color:ECD53D}{footer:Made with <3 by $username[$botOwnerID]:$userAvatar[$botOwnerID]}}]
+}{fields:RANDOM TEXT1,RANDOMTEXT2,yes:RANDOM TEXT3,RANDOM TEXT4,yes:RANDOM TEXT5,RANDOM TEXT6,yes}{ephemeral:no}{color:ECD53D}{footer:Made with <3 by $username[$botOwnerID]:$userAvatar[$botOwnerID]}}]
 $setUserVar[database;1]
 `
 }]
